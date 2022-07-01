@@ -1,0 +1,62 @@
+### Banner ###
+banner:
+  enable: true
+  image: "images/m-banner.jpg"
+  title: "Master Console"
+  content: "" # Change this if you want something other then the site description
+  buttonsToExternal:
+    - title: "Free Trial"
+      link: "https://gsuite.google.com/marketplace/app/master_console/242783388478"
+      class: "primary"
+  buttons:
+    - title: "Contact Us"
+      link: "#cta"
+      class: ""
+
+### Highlight ###
+highlight:
+  enable: true
+  header: "<i class='fa fa-quote-left' style='color: #f0b631;'></i> &nbsp;The convenient tool for your daily management <br>with G Suite &nbsp;<i class='fa fa-quote-right' style='color: #f0b631;'></i>"
+  content: ""
+  image: "images/gsuite-marketplace-app.png"
+
+### Features ###
+features:
+  enable: true
+  rows:
+    - items:
+      - title: "Recall Domain Emails"
+        # icon: "fa-bolt"
+        icon: "fa-envelope"
+        accent: "accent2" #accent values are 1-8
+        content: "Allows administrators to delete messages that users mistakenly send."
+
+      - title: "Push Contact Groups"
+        icon: "fa-users"
+        accent: "accent3" #accent values are 1-8
+        content: "Allows administrators to use Google Spreadsheet to manage contact group for all domain users."
+
+    - items:
+      - title: "Sync Shared Contacts"
+        icon: "fa-address-book"
+        accent: "accent4" #accent values are 1-8
+        content: "Allows administrators to use Google Spreadsheet to manage the domain directory."
+
+      - title: "Sync User Profiles"
+        icon: "fa-address-card"
+        accent: "accent5" #accent values are 1-8
+        content: "Allows administrators to use Google Spreadsheet to manage user profile."
+
+### Blog ###
+blog:
+  enable: true
+  # Leave header text blank to remove entire <section>
+  header: "Recent Posts"
+  buttonText: "Read More"
+  postCount: 2
+
+### Call to Action ###
+cta:
+  enable: true
+  header: "Contact Us"
+  content: "Feel free to tell us what you need ~"

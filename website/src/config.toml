@@ -1,0 +1,87 @@
+####### This is an EXAMPLE config file!!
+####### Changes made here will not effect demo site
+
+languageCode = "en-us"
+title = "Master Console"
+baseURL = "/"
+theme = "hugo-html5up-alpha"
+disqusShortname = "master-console"
+googleAnalytics = "UA-88168519-2"
+
+
+[params]
+  description = "Complement the management feature for G Suite administrators"
+  # images = ["images/m-banner.png"]
+  author = "Author: [mccntt](https://github.com/mccntt)"
+  copyright = "© Master Concept. All rights reserved."
+  design = "Theme: [Hugo HTML5 UP Alpha](https://themes.gohugo.io/hugo-html5up-alpha/)"
+  mainSections = ["blog"]
+
+### Footer Social Media Links ###
+[[params.share]]
+title = "facebook"
+icon = "fa-facebook-f" # fontawesome icons https://fontawesome.com/icons?d=gallery&s=brands
+link = "https://www.facebook.com/Hkmci/"
+
+[[params.share]]
+title = "twitter"
+icon = "fa-twitter"
+link = "https://twitter.com/masterconcepthk"
+
+[[params.share]]
+title = "linkedin"
+icon = "fa-linkedin"
+link = "https://www.linkedin.com/company/master-concept/"
+
+### For Pages the .RelPermalink must match the menu .URL
+### For sections the name/directory must match the menu .Identifier
+[menu]
+  [[menu.main]]
+    identifier = "generic"
+    name = "Generic"
+    url = "/generic/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 20
+  [[menu.main]]
+    identifier = "elements"
+    name = "Elements"
+    url = "/elements/"
+    weight = 30
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 40
+  [[menu.main]]
+    identifier = "submenu"
+    name = "Submenu"
+    url = "#"
+    weight = 50
+  [[menu.main]]
+    parent = "submenu"
+    identifier = "one"
+    name = "Option One"
+    url = "#"
+    weight = 51
+  [[menu.main]]
+    parent = "submenu"
+    identifier = "two"
+    name = "Option Two"
+    url = "#"
+    weight = 52
+  [[menu.main]]
+    parent = "submenu"
+    identifier = "three"
+    name = "Option Three"
+    url = "#"
+    weight = 53
+  [[menu.main]]
+    parent = "submenu"
+    identifier = "four"
+    name = "Option Four"
+    url = "#"
+    weight = 54
