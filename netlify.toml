@@ -2,7 +2,7 @@
 
 [build]
 base = "website/src/"
-publish = "website/src/public/"
+publish = "public/"
 command = "hugo --gc --minify"
 
 [context.production.environment]
